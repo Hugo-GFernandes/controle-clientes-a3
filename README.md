@@ -7,7 +7,7 @@ Controle-Clientes-A3
 
 ## 📄 Descrição
 
-- Esse é um projeto desenvolvido por estudantes em um trabalho, que tem como objetivo ajudar um _advogado autonomo_ na gestão de clientes em atendimento devido a desorganização atual relatada. O sistema organiza e otimiza o cadastro de clientes atendidos, assim como os lembretes e anotaçòes de cada um.
+- O sistema foi desenvolvido para atender às necessidades de um advogado autônomo, especializado na área do Direito Criminal. O profissional realiza atendimentos individualizados e conquista seus clientes principalmente por meio de anúncios online. Após a triagem inicial feita por um responsável externo, os clientes qualificados são encaminhados para o WhatsApp do advogado, onde é realizada uma avaliação manual. O objetivo do sistema é otimizar a organização das informações dos clientes, auxiliando no controle do fluxo de atendimento. Dentre as funcionalidades esperadas estão: o cadastro básico de clientes, o acompanhamento do status de atendimento, o agendamento de reuniões e a criação de lembretes. Além disso, foi utilizado o padrão MVC para a construção do código em pacotes, visando a organização e produtividade.
 
 ## ⚒Ferramentas
 
