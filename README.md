@@ -31,12 +31,15 @@ $ git clone
 https://github.com/Hugo-GFernandes/controle-clientes-a3.git
 ```
 
-- Em seguida abra no intellij
+- Em seguida abra no intellij;
 
-- Troque para a senha e usuario pessoais do MySQL nas classes: <code>ConexaoDB</code> e <code>InicializadorDB</code>
+- Troque para a senha e usuario pessoais do MySQL nas classes: <code>ConexaoDB</code> e <code>InicializadorDB</code>:
 - <code>String url = "jdbc:mysql://localhost:3306/nome_do_banco";</code>
 - <code>String usuario = "seu_usuario";</code>
 - <code>String senha = "sua_senha";</code>
+- Depêndencias são gerenciadas automaticamente pelo **maven**.
+- A classe <code>InicializadorDB.java</code> irá criar o banco de dados conforme as necessidades do programa na primeira execução.
+- É necessário utilizar o **Java 24**, mas caso não seja possível, altere a versão do **Java** no arquivo <code>pom.xml</code>.
 
 ## 🔧🏗️ Gestão do projeto
 
