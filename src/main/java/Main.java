@@ -32,6 +32,8 @@ public class Main {
         ClienteController clienteController =  new ClienteController(clienteDAO);
         AnotacaoController anotacaoController =  new AnotacaoController(anotacaoDAO);
         LembreteController lembreteController =  new LembreteController(lembreteDAO);
+        //Mostra os lembretes da data de hoje
+        lembreteController.listarLembretesHoje(menu, clienteController);
 
         int opcao;
 
@@ -83,7 +85,7 @@ public class Main {
 
                 case 2:
                     //2. Listar clientes
-                    //TODO
+                    clienteController.exibirTodosClientes();
                     break;
 
                 case 3:

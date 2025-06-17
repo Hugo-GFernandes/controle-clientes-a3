@@ -19,9 +19,9 @@ Dentre as principais ferramentas utilizadas estão:
 
 ## 📃Pré-requisitos
 
-- Possuir o IntelliJ
-- Possuir o MySQL 8.0.42
-- Possuir Java 24(Prioridade), 11, 8
+- Possuir o [IntelliJ](https://www.jetbrains.com/idea/download/?section=windows#)
+- Possuir o [MySQL 8.0.42](https://www.mysql.com/downloads/)
+- Possuir [Java 24](https://www.oracle.com/br/java/technologies/downloads/) (Prioridade), 11, 8
 
 ## ⚙️ Instruções de uso
 
@@ -29,12 +29,15 @@ Dentre as principais ferramentas utilizadas estão:
 # Clone o repositório
 $ git clone
 https://github.com/Hugo-GFernandes/controle-clientes-a3.git
-
-# Em seguida abra no intellij
-
-# Troque para a senha e usuario pessoais do MySQL nas classes: ConexaoDB   e  InicializadorDB
 ```
 
-## 🔧 Gestão do projeto
+- Em seguida abra no intellij
+
+- Troque para a senha e usuario pessoais do MySQL nas classes: <code>ConexaoDB</code> e <code>InicializadorDB</code>
+- <code>String url = "jdbc:mysql://localhost:3306/nome_do_banco";</code>
+- <code>String usuario = "seu_usuario";</code>
+- <code>String senha = "sua_senha";</code>
+
+## 🔧🏗️ Gestão do projeto
 
 - Link do Trello: https://trello.com/b/Ff0UtXJ2/programacao-de-solucoes-computacionais
